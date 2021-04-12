@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="My test suite" verbose="1">
+
+	<parameter name="browser" value="chrome"/>
+	
+	<test name="My ESPN Tests">
+		<classes>
+			<class name="com.automation.training.test.LoginTest"></class>
+			<class name="com.automation.training.test.LogOutTest"></class>
+			<class name="com.automation.training.test.DesactiveUserTest"></class>
+		</classes>
+	
+	</test>
+
+</suite>
